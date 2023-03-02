@@ -1,0 +1,22 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up", "how is it going"],
+    "responses": ["Hello!", "Hey", "What can I do for you?"]
+    },
+    {"tag": "goodbyes",
+    "patterns": ["cya", "chao", "goodbye", "later"],
+    "responses": ["Goodbye!"]
+    },
+    {"tag": "name",
+    "patterns": ["Who made you?", "Who is Jon?", "Jon?"],
+    "responses": ["JonZ made me, you can learn more at his website https://github.com/JonZwei/Projects"]
+    },
+    {"tag": "Iron Man?",
+    "patterns": ["Why, Iron Man?"],
+    "responses": ["Why not?"]
+    },
+    {"tag": "Invest?",
+    "patterns": ["What should I invest in?"],
+    "responses": ["Yourself"]
+    }
+]}
